@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Creative Am I? — Jack Bellamy</title>
+  <meta name="description" content="A tiny, self-aware micro-site about exactly how creative Jack is." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="hero">
+    <div class="avatar-wrap">
+      <img src="assets/avatar.svg" alt="Cartoon avatar of Jack" class="avatar" />
+    </div>
+    <h1>Hi, I'm Jack.</h1>
+    <p class="subtitle">Let's settle it: <span class="highlight">exactly</span> how creative am I?</p>
+    <div class="meter-wrap">
+      <div class="meter-label">
+        <span>Creativity Meter</span>
+        <span id="meterValue">0%</span>
+      </div>
+      <div class="meter-track">
+        <div class="meter-fill" id="meterFill"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>📜 Origin Story</h2>
+      <p>
+        It started with a crayon, a wall my parents did <em>not</em> approve of,
+        and an unshakable belief that beige was a missed opportunity. Things
+        escalated from there.
+      </p>
+    </section>
+
+    <section class="card grid">
+      <div class="stat">
+        <span class="stat-num">247</span>
+        <span class="stat-label">half-finished side projects</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3am</span>
+        <span class="stat-label">average "genius idea" o'clock</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">∞</span>
+        <span class="stat-label">ways to avoid the obvious solution</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">1</span>
+        <span class="stat-label">micro-site made about my own creativity</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>💡 Proof of Creativity</h2>
+      <ul class="proof-list">
+        <li>Turned a Tuesday into a "brainstorming retreat."</li>
+        <li>Named a houseplant after a Greek philosopher, for no reason.</li>
+        <li>Once solved a bug by explaining it to a rubber duck in verse.</li>
+        <li>Wrote this entire site instead of just saying "pretty creative, I guess."</li>
+      </ul>
+    </section>
+
+    <section class="card generator">
+      <h2>🎲 Instant Idea Generator</h2>
+      <p class="muted">Need proof on demand? Click for a freshly-invented, wildly creative idea.</p>
+      <button id="ideaBtn" type="button">Generate a creative idea</button>
+      <p id="ideaOutput" class="idea-output" aria-live="polite"></p>
+    </section>
+
+    <section class="card certificate" id="certificate">
+      <div class="cert-border">
+        <h2>Certificate of Creativity</h2>
+        <p class="cert-name">Jack Bellamy</p>
+        <p class="cert-body">has been formally, scientifically, and extremely unofficially
+          verified as <strong>creative</strong>, per the evidence above.</p>
+        <p class="cert-date" id="certDate"></p>
+        <p class="cert-seal">✦ self-issued ✦</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with equal parts imagination and procrastination.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
