@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" width="100%" height="100%" role="img" aria-label="Cartoon avatar of Jack">
+  <defs>
+    <pattern id="beardDots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#111"/>
+    </pattern>
+  </defs>
+
+  <!-- jacket -->
+  <path d="M75 540 L120 400 L200 360 L270 400 L340 360 L420 400 L465 540 Z" fill="#5b6066"/>
+  <path d="M120 400 L160 540 L145 540 L108 415 Z" fill="#4a4e53"/>
+  <path d="M420 400 L380 540 L395 540 L432 415 Z" fill="#4a4e53"/>
+
+  <!-- neck / undershirt -->
+  <path d="M225 340 Q270 400 315 340 L330 460 Q270 500 210 460 Z" fill="#161616"/>
+  <path d="M225 340 Q270 380 315 340 L310 370 Q270 410 230 370 Z" fill="#f2e4d8"/>
+
+  <!-- ears -->
+  <circle cx="182" cy="245" r="14" fill="#f2e4d8"/>
+  <circle cx="358" cy="245" r="14" fill="#f2e4d8"/>
+
+  <!-- face -->
+  <path d="M180 200 Q180 110 270 108 Q360 110 360 200 Q362 260 340 300 Q305 340 270 340 Q235 340 200 300 Q178 260 180 200 Z" fill="#f2e4d8"/>
+
+  <!-- beard shape (dotted texture) -->
+  <path d="M195 250 Q200 320 270 340 Q340 320 345 250 Q345 300 300 322 Q270 336 240 322 Q195 300 195 250 Z" fill="url(#beardDots)"/>
+
+  <!-- mustache/mouth area -->
+  <path d="M232 275 Q270 300 308 275 Q270 296 232 275 Z" fill="#161616"/>
+  <path d="M240 278 Q270 292 300 278 Q270 288 240 278 Z" fill="#fff"/>
+
+  <!-- eyebrows -->
+  <rect x="205" y="182" width="45" height="9" rx="4" fill="#161616"/>
+  <rect x="290" y="182" width="45" height="9" rx="4" fill="#161616"/>
+
+  <!-- eyes -->
+  <circle cx="225" cy="210" r="6" fill="#161616"/>
+  <circle cx="315" cy="210" r="6" fill="#161616"/>
+
+  <!-- nose -->
+  <path d="M270 200 L262 235 Q270 242 278 235 Z" fill="none" stroke="#161616" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- hair -->
+  <path d="M175 205 Q160 120 240 90 Q210 130 235 120 Q250 80 300 85 Q345 92 360 140 Q368 175 360 205 Q350 150 320 130 Q330 160 300 150 Q260 138 240 155 Q220 165 210 150 Q205 175 190 205 Z" fill="#161616"/>
+</svg>
